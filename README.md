@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-id/deploy-status)](https://gourangadas.netlify.app/)
-[![Website Status](https://img.shields.io/website?url=https://gourangadas.netlify.app/)](https://gourangadas.netlify.app/)
+[![Vercel Status](https://img.shields.io/badge/vercel-deployed-brightgreen?logo=vercel)](https://vercel.com/project/prj_cOKIoKkwCgxQDrxizXOuHKBjaJeO)
+[![Website Status](https://img.shields.io/website?url=https://react-portfolio-indol-eight.vercel.app/)](https://react-portfolio-indol-eight.vercel.app/)
 [![Last Updated](https://img.shields.io/github/last-commit/yourusername/React-Portfolio?label=Last%20Updated&color=success)](https://github.com/yourusername/React-Portfolio/commits/main)
 
 </div>
@@ -31,7 +31,7 @@
 
 A modern, responsive portfolio website showcasing my professional journey and technical expertise. Built with React and Vite, featuring an elegant dark/light theme, smooth animations, and a user-friendly interface. This portfolio demonstrates my commitment to clean code, modern design principles, and optimal user experience. ✨
 
-[View Live Demo](https://gourangadas.netlify.app/) • [Report Bug](https://github.com/yourusername/React-Portfolio/issues) • [Request Feature](https://github.com/yourusername/React-Portfolio/issues)
+[View Live Demo](https://react-portfolio-indol-eight.vercel.app/) • [Report Bug](https://github.com/yourusername/React-Portfolio/issues) • [Request Feature](https://github.com/yourusername/React-Portfolio/issues)
 
 ## ✨ Key Features
 
@@ -145,39 +145,42 @@ React-Portfolio/
 
 ## 🚀 Deployment
 
-### Deploying to Netlify
+### Deploying to Vercel
 
-1. Create a new site in Netlify
+1. Install Vercel CLI
 
    ```bash
-   # Install Netlify CLI
-   npm install -g netlify-cli
-
-   # Login to Netlify
-   netlify login
-
-   # Initialize and deploy
-   netlify init
+   npm install -g vercel
    ```
 
-2. Configure build settings:
+2. Login to Vercel
 
-   - Build command: `npm run build`
-   - Publish directory: `dist`
-   - Node version: `16`
+   ```bash
+   vercel login
+   ```
 
-3. Set up environment variables in Netlify dashboard:
+3. Configure build settings in `vercel.json`:
 
-   ```env
-   VITE_APP_EMAIL_SERVICE_ID=your_service_id
-   VITE_APP_TEMPLATE_ID=your_template_id
-   VITE_APP_USER_ID=your_user_id
+   ```json
+   {
+     "version": 2,
+     "builds": [
+       {
+         "src": "package.json",
+         "use": "@vercel/static-build",
+         "config": { "distDir": "dist" }
+       }
+     ]
+   }
    ```
 
 4. Deploy your site:
    ```bash
-   git push # Netlify will automatically deploy
+   vercel # for development
+   vercel --prod # for production
    ```
+
+Current deployment: [https://react-portfolio-indol-eight.vercel.app/](https://react-portfolio-indol-eight.vercel.app/)
 
 ### Performance Optimization
 
@@ -249,7 +252,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [React](https://reactjs.org/) - For the amazing UI library
 - [Vite](https://vitejs.dev/) - For the blazing fast build tool
 - [EmailJS](https://www.emailjs.com/) - For the contact form functionality
-- [Netlify](https://www.netlify.com/) - For hosting and continuous deployment
+- [Vercel](https://vercel.com/) - For hosting and continuous deployment
 
 ---
 
