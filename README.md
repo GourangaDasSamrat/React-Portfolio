@@ -100,7 +100,19 @@ Before you begin, ensure you have the following installed:
    cp .env.example .env
    ```
 
-5. Start the development server
+5. Set up your EmailJS credentials
+
+   - Sign up at [EmailJS](https://www.emailjs.com/)
+   - Create an Email Service (Gmail, Outlook, etc.)
+   - Create an Email Template
+   - Get your credentials and add them to the `.env` file:
+     ```env
+     VITE_EMAILJS_SERVICE_ID=your_service_id
+     VITE_EMAILJS_TEMPLATE_ID=your_template_id
+     VITE_EMAILJS_PUBLIC_KEY=your_public_key
+     ```
+
+6. Start the development server
    ```bash
    npm run dev
    ```

@@ -11,7 +11,7 @@ form {
 }
 
 textarea,
-input:not([type='submit']) {
+input:not([type="submit"]) {
   height: 50px;
   padding-left: 16px;
   width: 250px;
@@ -37,7 +37,7 @@ textarea {
   color: var(--form-text-color);
 }
 
-input[type='submit'] {
+input[type="submit"] {
   background-color: var(--btn-color);
   color: var(--btn-text-color);
   border: none;
@@ -51,18 +51,38 @@ input[type='submit'] {
   margin: auto;
 }
 
-input[type='submit']:hover {
+input[type="submit"]:hover {
   transform: scale(1.05);
 }
 
-input[type='submit']:active {
+input[type="submit"]:active {
   transform: translateY(2px);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
+.successMessage,
+.errorMessage {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.successMessage {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.errorMessage {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
 @media (width >= 800px) {
   textarea,
-  input:not([type='submit']) {
+  input:not([type="submit"]) {
     width: 600px;
     font-size: 20px;
   }
@@ -73,7 +93,7 @@ input[type='submit']:active {
 
 @media (width >= 1400px) {
   textarea,
-  input:not([type='submit']) {
+  input:not([type="submit"]) {
     width: 800px;
   }
 }
