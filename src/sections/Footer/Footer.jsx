@@ -1,10 +1,10 @@
-import styles from './FooterStyles.module.css';
+import styles from "./FooterStyles.module.css";
 
 function Footer() {
   return (
     <section id="footer" className={styles.container}>
       <p>
-        &copy; 2024 Harris johnsen. <br />
+        &copy; 2024 Gouranga Das Samrat. <br />
         All rights reserved.
       </p>
     </section>
