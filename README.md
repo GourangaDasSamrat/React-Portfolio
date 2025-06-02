@@ -4,7 +4,7 @@
 
 [![Vercel Status](https://img.shields.io/badge/vercel-deployed-brightgreen?logo=vercel)](https://vercel.com/project/prj_cOKIoKkwCgxQDrxizXOuHKBjaJeO)
 [![Website Status](https://img.shields.io/website?url=https://react-portfolio-indol-eight.vercel.app/)](https://react-portfolio-indol-eight.vercel.app/)
-[![Last Updated](https://img.shields.io/github/last-commit/yourusername/React-Portfolio?label=Last%20Updated&color=success)](https://github.com/yourusername/React-Portfolio/commits/main)
+[![Last Updated](https://img.shields.io/github/last-commit/GourangaDasSamrat/React-Portfolio?label=Last%20Updated&color=success)](https://github.com/GourangaDasSamrat/React-Portfolio/commits/main)
 
 </div>
 
@@ -31,7 +31,7 @@
 
 A modern, responsive portfolio website showcasing my professional journey and technical expertise. Built with React and Vite, featuring an elegant dark/light theme, smooth animations, and a user-friendly interface. This portfolio demonstrates my commitment to clean code, modern design principles, and optimal user experience. ✨
 
-[View Live Demo](https://react-portfolio-indol-eight.vercel.app/) • [Report Bug](https://github.com/yourusername/React-Portfolio/issues) • [Request Feature](https://github.com/yourusername/React-Portfolio/issues)
+[View Live Demo](https://react-portfolio-indol-eight.vercel.app/) • [Report Bug](https://github.com/GourangaDasSamrat/React-Portfolio/issues) • [Request Feature](https://github.com/GourangaDasSamrat/React-Portfolio/issues)
 
 ## ✨ Key Features
 
@@ -79,7 +79,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/React-Portfolio.git
+   git clone https://github.com/GourangaDasSamrat/React-Portfolio.git
    ```
 
 2. Navigate to the project directory
