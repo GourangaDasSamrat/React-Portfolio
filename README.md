@@ -22,7 +22,7 @@
 
 A modern, responsive portfolio website showcasing my professional journey and technical expertise. Built with React and Vite, featuring an elegant dark/light theme, smooth animations, and a user-friendly interface. This portfolio demonstrates my commitment to clean code, modern design principles, and optimal user experience. ✨
 
-[View Live Demo](https://react-portfolio-indol-eight.vercel.app/) • [Report Bug](https://github.com/GourangaDasSamrat/React-Portfolio/issues) • [Request Feature](https://github.com/GourangaDasSamrat/React-Portfolio/issues)
+[View Live Demo](https://react-portfolio.gouranga.qzz.io/) • [Report Bug](https://github.com/GourangaDasSamrat/React-Portfolio/issues) • [Request Feature](https://github.com/GourangaDasSamrat/React-Portfolio/issues)
 
 ## ✨ Key Features
 
@@ -183,7 +183,7 @@ React-Portfolio/
    vercel --prod # for production
    ```
 
-Current deployment: [https://react-portfolio-indol-eight.vercel.app/](https://react-portfolio-indol-eight.vercel.app/)
+Current deployment: [https://react-portfolio.gouranga.qzz.io/](https://react-portfolio.gouranga.qzz.io/)
 
 ### Performance Optimization
 
